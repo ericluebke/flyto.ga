@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <style>
+  @viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+  @-ms-viewport {
+  width: device-width;
+}
+    .head1{
+    position: absolute;
+    font-size: 40px;
+    top: 170px;
+    left: calc(50% - 160px);
+    }
+    .p1{
+    font-family: main;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 370px;
+    left: calc(50% - 160px);
+    }
+    .gradient{
+    background: -webkit-linear-gradient(left, purple, pink, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, purple, pink, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, purple, pink, violet); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, purple, pink, violet); /* Standard syntax (must be last) */
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    font-size: 0px;
+    height: 10px;
+    }
+    .gradient2{
+    background: -webkit-linear-gradient(left, violet, pink, purple); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, violet, pink, purple); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, violet, pink, purple); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, violet, pink, purple); /* Standard syntax (must be last) */
+    font-size: 0px;
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    bottom: 0;
+    left: 0;
+    }
+  </style>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <div id="content">
+    <p class ="head1">Just a moment...</p>
+    <p class ="p1">We're redirecting you to your link.</p>
+    </div>
+    <p class ="gradient">beep beep lettuce</p>
+    <p class ="gradient2">beep beep yum lettuce lol</p>
+    <script src="script.js"></script>
+  </body>
+</html>
