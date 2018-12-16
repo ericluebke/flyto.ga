@@ -1,0 +1,13 @@
+/* CSS files add styling rules to your content */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+@font-face { font-family: main; src: url('https://www.dl.dropboxusercontent.com/s/67boj1japzfsp6y/Dual-300.ttf?dl=0'); } 
+canvas {
+  display: block;
+}
+.head1{
+font-family: main;
+font-weight: bold;
+}
